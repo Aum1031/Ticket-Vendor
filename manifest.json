@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "StubHub Plugin",
+  "description": "This extension gets you ticket",
+  "version": "1.0",
+  
+        "background_page": "http://www.google.com",
+
+  "browser_action": {
+   "default_popup": "popup.html"
+  },
+  "permissions": ["tabs"]
+}
